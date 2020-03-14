@@ -8369,19 +8369,7 @@ h1, h2, h3, h4, h5,
               padding: 1em; } }
           .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
             position: relative; }
-            .owl-carousel.home-slider .slider-item .slider-text .one-forth .text:after {
-              position: absolute;
-              top: -25%;
-              left: 50%;
-              right: 0;
-              bottom: 0;
-              content: '';
-              opacity: 0;
-              width: 80px;
-              background: transparent;
-              height: 140px;
-              border: 10px solid #f76707;
-              z-index: -1; }
+            
               @media (min-width: 992px) {
                 .owl-carousel.home-slider .slider-item .slider-text .one-forth .text:after {
                   opacity: 1; } }
@@ -9707,3 +9695,15 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.logo{ 
+ background: url(cub-training.gif) no-repeat center center fixed; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: 70%;
+}
+
+.tour{
+  text-shadow: 2px 0 0 white, 0 2px 0 white, 0 -2px 0 white, -2px 0 0 white, 2px 2px 0 white, 2px -2px 0 white, -2px 2px 0 white, -2px -2px 0 white;
+}
