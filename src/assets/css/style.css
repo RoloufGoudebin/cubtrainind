@@ -3466,7 +3466,7 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   position: relative;
-   background: url(../images/cub-training-logo.gif);
+   background: url(/assets/img/cub-training-logo.gif);
    width: 230px;
    left: 15px;
    background-size: cover;
@@ -8218,20 +8218,6 @@ h1, h2, h3, h4, h5,
       -webkit-transition: .3s all ease-out;
       -o-transition: .3s all ease-out;
       transition: .3s all ease-out; }
-    .ftco-navbar-light.scrolled .navbar-brand {
-      color: #000000;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-      font-size: 24px; }
-      .ftco-navbar-light.scrolled .navbar-brand span {
-        color: #f76707; }
-
-.navbar-brand {
-  font-weight: 900;
-  font-size: 24px;
-  text-transform: uppercase; }
-  .navbar-brand span {
-    font-weight: 900; }
 
 .hero h3.vr {
   -webkit-writing-mode: vertical-lr;
@@ -9698,7 +9684,7 @@ textarea.form-control {
     stroke-dashoffset: -136px; } }
 
 .logo{
- background: url(cub-training.gif) no-repeat center center fixed;
+ background: url(/assets/img/cub-training.gif) no-repeat center center fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
