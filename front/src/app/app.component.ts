@@ -23,6 +23,7 @@ export class AppComponent {
     this.loadScript('../assets/js/scrollax.min.js');
     this.loadScript('../assets/js/google-map.js');
     this.loadScript('../assets/js/main.js')
+
   }
 
   public loadScript(url: string) {
