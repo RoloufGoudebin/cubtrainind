@@ -38,7 +38,7 @@ export class ContentComponent implements OnInit {
       question: this.messageFormControl.value
     }
 
-    this.http.post("http://localhost:3000/sendmail", user).subscribe(
+    this.http.post("176.31.162.148/sendmail", user).subscribe(
       data => {
         let res: any = data;
         console.log(
