@@ -22,7 +22,7 @@ var scrollWindow = function () {
       navbar = $('.ftco_navbar'),
       sd = $('.js-scroll-wrap');
 
-    if (st > 50) {
+    if (st > 150) {
       if (!navbar.hasClass('scrolled')) {
         navbar.addClass('scrolled');
       }
@@ -32,7 +32,7 @@ var scrollWindow = function () {
         navbar.removeClass('scrolled sleep');
       }
     }
-    if (st > 50) {
+    if (st > 150) {
       if (!navbar.hasClass('awake')) {
         navbar.addClass('awake');
       }
@@ -53,11 +53,5 @@ var scrollWindow = function () {
   });
 };
 scrollWindow();
-
-
-
-$('#dropdown04').on('show.bs.dropdown', function () {
-  console.log('show');
-});
 
 

@@ -3466,9 +3466,8 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   position: relative;
-   background: url(/assets/img/cub-training-logo.gif);
-   width: 230px;
-   left: 15px;
+   height: 45px;
+   width: auto;
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
